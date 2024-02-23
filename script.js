@@ -85,13 +85,13 @@ const bicepLogo = document.getElementById('bicep-logo');
 // Function to update the header image and BICEP logo based on screen width
 function updateHeaderImage() {
     if (window.innerWidth > 600) {
-    headerImage.src = 'pics/anv.png';
+    headerImage.src = 'https://i.postimg.cc/t47k29gL/anv.png';
     headerImage2.style.display = 'none';
     bicepLogo.style.width = '130px';
     bicepLogo.style.height = '130px';
     } else {
-    headerImage.src = 'pics/head1.png';
-    headerImage2.src = 'pics/head2.png';
+    headerImage.src = 'https://i.postimg.cc/BvKgfNHp/head1.png';
+    headerImage2.src = 'https://i.postimg.cc/vB7tcBP6/head2.png';
     headerImage2.style.display = 'block';
     bicepLogo.style.width = '80px';
     bicepLogo.style.height = '80px';
